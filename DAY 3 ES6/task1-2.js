@@ -11,7 +11,7 @@ const Product = {
         if (Product.available === true) {
           return `${Product.product_Name} price is ${Product.Price.toFixed(2) + '$'} and it is available`;
         } else {
-          return `${Product.product_Name} price is ${Product.Price.toFixed(2)} and it is not available`;
+          return `${Product.product_Name} price is ${Product.Price.toFixed(2) + '$'} and it is not available`;
         }
       }
     },
